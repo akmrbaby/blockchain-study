@@ -1,0 +1,19 @@
+{
+  "name": "biconomy-tutorial",
+  "version": "1.0.0",
+  "description": "https://docs.biconomy.io/tutorials/sendSimpleTransaction",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@biconomy/account": "^4.4.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "ts-node": "^10.9.2"
+  }
+}
